@@ -1,0 +1,88 @@
+body{
+    background-color: whtesmoke;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+p{
+    display: none;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.main{
+    margin: auto;
+    width: 100%;
+}
+
+.pokeBusca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 40%;
+    margin: 10px auto;
+
+}
+
+.formPoke{
+    display: none;
+    width: 50%;
+    flex-direction: column;
+    margin: 15px auto;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+.pokeTable{
+    width: 70%;
+    margin: auto;
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table>tbody{
+    vertical-align: middle !important;
+}
+
+.delete{
+    width: 100%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
